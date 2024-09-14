@@ -16,7 +16,7 @@ I would love it if it were implemented in the visualizer officially, but there m
 
 _Thanks for providing the code for the project._
 
-Original project by @elias123tre 
+Original project by @elias123tre  
 Background effects by @OBLVIION
 
 _Song name: For This You Were Born - UNSECRET_
@@ -24,10 +24,10 @@ _Song name: For This You Were Born - UNSECRET_
 https://github.com/user-attachments/assets/683b7d40-3b9f-4941-920a-8eae648b3fd4
 
 ## How to use this version of the visualizer
-Download the original file, follow its instructions to install (https://github.com/elias123tre/lively-audio-visualizer)
+Download the original file, follow its instructions to install (https://github.com/elias123tre/lively-audio-visualizer)  
 If you have the original visualizer:
 - Download this fork zip file
-Download Link:(https://github.com/OBLVIION/lively-audio-visualizer-background-reaction_custom-settings/archive/refs/heads/main.zip)
+> Download Link: (https://github.com/OBLVIION/lively-audio-visualizer-background-reaction_custom-settings/archive/refs/heads/main.zip)
 - Open your Lively Library and right-click on the visualizer window, (open in the file explorer), extract the downloaded files and replace what is needed.
 - Thats it, play around with the settings on lively!
 
