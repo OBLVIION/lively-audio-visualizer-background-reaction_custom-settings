@@ -32,7 +32,7 @@ If you have the original visualizer:
 - Thats it, play around with the settings on lively!
 
 Good day!
-Hope you're all doing great, and enjoy your life!
+Hope you're all doing great. Enjoy your life!
 ----------------------------------------------------------------
 
 ## Original README (@elias123tre)
