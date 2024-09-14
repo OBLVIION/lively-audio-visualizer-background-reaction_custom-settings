@@ -16,10 +16,10 @@ I would love it if it were implemented in the visualizer officially, but there m
 
 _Thanks for providing the code for the project._
 
-Original project by @elias123tre
+Original project by @elias123tre 
 Background effects by @OBLVIION
- 
- _Song name: For This You Were Born - UNSECRET_
+
+_Song name: For This You Were Born - UNSECRET_
 
 https://github.com/user-attachments/assets/683b7d40-3b9f-4941-920a-8eae648b3fd4
 
