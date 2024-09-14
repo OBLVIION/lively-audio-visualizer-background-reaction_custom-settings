@@ -16,7 +16,8 @@ I would love it if it were implemented in the visualizer officially, but there m
 
 _Thanks for providing the code for the project._
 
-All the credit goes to @elias123tre 
+Original project by @elias123tre
+Background effects by @OBLVIION
  
  _Song name: For This You Were Born - UNSECRET_
 

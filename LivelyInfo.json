@@ -1,9 +1,9 @@
 {
   "AppVersion": "1.5.0.0",
-  "Title": "Circle Audio Visualizer",
-  "Thumbnail": "00ddy3tw.jpg",
+  "Title": "Circle Audio Visualizer with Background Effects",
+  "Thumbnail": "AudioVisualizer with backgroundEffects.png",
   "Preview": "qpyivo5q.gif",
-  "Desc": "Advanced and customizable audio visualizer with a circular spectrum",
+  "Desc": "Advanced and customizable audio visualizer with a circular spectrum and background effects",
   "Author": "elias123tre",
   "License": null,
   "Contact": "https://github.com/elias123tre/lively-audio-visualizer",
