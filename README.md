@@ -1,67 +1,84 @@
+# About the background effects:
+## **I've made some changes to the audio-visualizer.**
+
+I wanted to add some reactivity to the background, so I needed to change the HTML file, add some lines of code to the main.js file, and some custom settings to the livelyproperties file.
+
+**Overall additions and changes:**
+- Background
+- Shake, Tilt, Pulse, Blur reaction to the background
+- Added these settings to lively so we can change them
+- Stars react to the sound as well (velocity and opacity)
+- Added a simple border to increment
+- I don't have enough experience in development yet, so the code may not be perfect. But it is heavily commented, mostly in the changes I've made.
+- LivelyProperties.json file uses my custom settings for the visualizer!
+
+I would love it if it were implemented in the visualizer officially, but there may be some issues that need to be addressed and fixed. If so, feel free to upgrade what is needed.
+
+_Thanks for providing the code for the project._
+
+All the credit goes to @elias123tre 
+ 
+ _Song name: For This You Were Born - UNSECRET_
+
+https://github.com/user-attachments/assets/683b7d40-3b9f-4941-920a-8eae648b3fd4
+
+## How to use this version of the visualizer
+Download the original file, follow its instructions to install (https://github.com/elias123tre/lively-audio-visualizer)
+If you have the original visualizer:
+- Download this fork zip file
+Download Link:(https://github.com/OBLVIION/lively-audio-visualizer-background-reaction_custom-settings/archive/refs/heads/main.zip)
+- Open your Lively Library and right-click on the visualizer window, (open in the file explorer), extract the downloaded files and replace what is needed.
+- Thats it, play around with the settings on lively!
+
+Good day!
+Hope you're all doing great, and enjoy your life!
+----------------------------------------------------------------
+
+## Original README (@elias123tre)
 # Lively Audio Visualizer
 
-> Lively has been updated to include better support for audio visualizers. I am currently working on a new version for better intergration with the new features.
+Audio Visualizer for [lively wallpaper](https://rocksdanister.github.io/lively/)
 
-Advanced and customizable Audio Visualizer for [lively wallpaper](https://rocksdanister.github.io/lively/) (similar to Wallpaper Engine)  
-See example configurations and demonstration below!
+![Preview gif](preview.gif)
 
-[![Github all releases](https://img.shields.io/github/downloads/elias123tre/lively-audio-visualizer/total.svg?style=flat-square&label=total%20downloads)](https://github.com/elias123tre/lively-audio-visualizer/releases/latest/download/Circle-Audio-Visualizer.zip)
+[![Github all releases](https://img.shields.io/github/downloads/elias123tre/lively-audio-visualizer/total.svg?style=flat-square)](https://github.com/elias123tre/lively-audio-visualizer/releases/latest)
 
+## How to setup
 
-## How to download
-
-[![Download icon](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Download&query=%24.tag_name&url=https%3A%2F%2Fapi.github.com%2Frepos%2Felias123tre%2Flively-audio-visualizer%2Freleases%2Flatest&style=for-the-badge)](https://github.com/elias123tre/lively-audio-visualizer/releases/latest/download/Circle-Audio-Visualizer.zip)
-
-1. Download the [lively wallpaper file](https://github.com/elias123tre/lively-audio-visualizer/releases/latest/download/Circle-Audio-Visualizer.zip)
-2. Drag and drop the downloaded file into lively
+1. Go to the [latest release](https://github.com/elias123tre/Lively-Audio-Visualizer/releases/latest)
+2. Click file named `Circle-Audio-Visualizer.zip` to download it
+3. Drag and drop the downloaded file into lively
 
 ## Demonstration
 
-https://user-images.githubusercontent.com/18127101/118381838-84843480-b5ef-11eb-821f-5a7c5dbf2a44.mp4
-
-## Examples
-
-![qpyivo5q](https://user-images.githubusercontent.com/18127101/118381983-bb0e7f00-b5f0-11eb-9032-0ffc6f086f2a.gif) ![reljwqaq](https://user-images.githubusercontent.com/18127101/118381985-c19cf680-b5f0-11eb-9d61-bd5e7e75c551.gif) ![fvantbgc](https://user-images.githubusercontent.com/18127101/118382057-8b13ab80-b5f1-11eb-8a4a-ca2ac0533b25.gif) ![z1placat](https://user-images.githubusercontent.com/18127101/118382119-6bc94e00-b5f2-11eb-95a0-dd7d33461e7e.gif)
-
-_Feel free to open an issue or pull request if want your setup here_
+https://user-images.githubusercontent.com/18127101/117224561-86d8d880-ae10-11eb-8c7e-fd1d79a0c89d.mp4
 
 ## Use custom background image
 
 1. After installing the wallpaper, right click on it
 2. Select `Open File Location`
-3. Move your image to the `images` folder (or `logos` to add a logo, make sure the file is .jpg .png .gif or .webp)
+3. Move your image to the `images` folder (or `logos` to add a logo)
 4. Select it when customizing the wallpaper
 
-## Customizable features
+## Features
 
-- Background image
-  - Custom image
-  - Custom blur percentage
-- Visualizer
-  - Custom length, shape, glow and top & bottom color for spectrum lines
-  - Custom size, reactivity (moving inner circle), bass offset for visualizer
-  - Custom center logo (see example)
-  - Custom shake/wobble reacting to audio with speed and radius adjustments
-  - Custom shadow for spectrum + logo (change offsett, blur and opacity)
-- Background effects (similar to Trap Nation)
-  - Stars/snow/debris floating towards you (see example)
-  - Custom color, opacity, glow and blur
-  - Can be turned off
-- Visualizer position
-  - Custom horizontal and vertical position based on screen width, height
-  - Can be used with span to only show on one monitor (if you have multiple)
-
-## Upcoming features
-
-- Different types of visualizers (eg. lines from bottom or sparkline around center)
-- Smoother visualizer (less lag/jumping)
-- Scale of visualizer reacting to music
-- Volume threshold for showing visualizer
-- Video as background
+- [x] Customizable background image
+- [x] Customizable bar color
+- [x] Customizable bar amplitude
+- [x] Glowing bars
+- [x] Customizable center logo image
+- [x] Background effects (snow/stars/debris with glow, similar to Trap Nation)
+- [x] Moving inner ring (similar to NCS)
+- [x] Background image blur option
+- [x] Change visualizer position
+- [x] Camera shake/wobble for visualizer
+- [x] Multi monitor background span
+- [ ] Different types of visualizers (eg. lines from bottom or sparkline)
+- [ ] Smoother bar visualizer bars
 
 ## Troubleshooting
 
-If the visualizer is not reacting to sound, try [this solution](https://help.wallpaperengine.io/en/audio/audiodetection.html#_2-hardware-specific-issues):
+If the visualizer is not reacting to sound, try [this solution](https://help.wallpaperengine.io/en/audio/intermittent.html):
 
 > USB / wireless headsets are prone to sound driver issues. For many devices, changing the audio sample rate in the Windows device settings to 44100 Hz permanently fixes the issue:  
 > Right-click on the audio icon in the tray area in the lower right corner of Windows, select "Open Sound Settings". Click on "Device Properties" in the "Output" section of the window that opens up. Afterwards, click on "Additional device properties", then navigate to the "Advanced" tab. You can change the sampling rate in the menu shown there. The exact location is different on different versions of Windows. if you cannot find this option, search the web for guides on how to change the sampling rate of sound devices for your version of Windows.  
