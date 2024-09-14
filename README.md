@@ -29,7 +29,7 @@ If you have the original visualizer:
 - Download this fork zip file
 > Download Link: (https://github.com/OBLVIION/lively-audio-visualizer-background-reaction_custom-settings/archive/refs/heads/main.zip)
 - Open your Lively Library and right-click on the visualizer window, (open in the file explorer), extract the downloaded files and replace what is needed.
-- Thats it, play around with the settings on lively! Thats it, play around with the settings on lively! Thats it, play around with the settings on lively! Thats it, play around with the settings on lively! Thats it, play around with the settings on lively! Thats it, play around with the settings on lively! Thats it, play around with the settings on lively! Thats it, play around with the settings on lively!
+- Thats it, play around with the settings on lively!
 
 Good day!
 Hope you're all doing great, and enjoy your life!
